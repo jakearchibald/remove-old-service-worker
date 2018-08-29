@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "server1": "node --inspect server1.js",
+    "server2": "node --inspect server2.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "remove-old-service-worker",
+  "version": "1.0.0",
+  "description": "Dev server middleware to uninstall service workers from other projects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakearchibald/remove-old-service-worker.git"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "express",
+    "middleware",
+    "uninstall",
+    "unregister"
+  ],
+  "author": "Jake Archibald",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jakearchibald/remove-old-service-worker/issues"
+  },
+  "homepage": "https://github.com/jakearchibald/remove-old-service-worker#readme",
+  "dependencies": {
+    "hijackresponse": "^3.0.0"
+  }
+}
